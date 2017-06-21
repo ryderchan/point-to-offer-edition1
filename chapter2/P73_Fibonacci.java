@@ -29,7 +29,7 @@ public class P73_Fibonacci {
         return temp3;
     }
 
-    //o(nlogn)
+    //o(logn)
     //   [ f(n)  f(n-1) ]  =   [ 1  1 ] ^n-1
     //   [f(n-1) f(n-2) ]      [ 1  0 ]
     public static long fibonacci3(int n){
